@@ -7,8 +7,12 @@ let highScoreInput = 0;
 const btnCheck = document.querySelector('.check');
 const btnAgain = document.querySelector('.again');
 console.log(highScoreInput);
+console.log(highScoreInput);
+console.log(highScoreInput);
+console.log(highScoreInput);
+
 btnAgain.onclick = () => {
-    let secretNumber = Math.trunc(Math.random() * 20) + 1;
+    secretNumber = Math.trunc(Math.random() * 20) + 1;
     let guess = document.querySelector('.guess');
     let message = document.querySelector('.message');
     let score = document.querySelector('.score');
